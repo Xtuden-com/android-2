@@ -38,7 +38,7 @@ class TestShareFileActivity : SingleFragmentActivity(), ShareFragmentListener {
     override fun copyOrSendPrivateLink(file: OCFile) {
     }
 
-    override fun deleteShare(remoteId: Long) {
+    override fun deleteShare(remoteId: String) {
     }
 
     override fun showLoading() {
